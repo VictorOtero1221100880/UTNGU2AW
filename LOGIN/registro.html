@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>UTNG Dolores Hidalgo Registro</title>
+        
+        <link rel="stylesheet" href="CSS/master1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+    <section>
+     <div class="login-box">
+        <img class="avatar" src="./IMGS/Logo.png" alt="Logotipo UTNG">
+         <h1>Registro</h1>
+         <form>
+             
+             
+             
+             <!-- Nombre completo -->
+             <label class="titulo"  for="completeName">Nombre completo</label>
+             <input class="caja" type="text" id="completeName" placeholder=" Ingresa tu nombre completo" required>
+             
+             <!-- Correo electronico -->
+             <label class="titulo" for="email">Correo electronico</label>
+             <input class="caja" type="email" id="email" placeholder="  Ingresa tu correo electrónico" required>
+             
+             <!-- Numero telefonico -->
+             <label  class="titulo" for="number">Número telefonico</label>
+             <input class="caja" type="tel" id="number" placeholder=" Ingresa tu numero telefonico"  required>
+              
+             <!-- Contraseña-->
+             <label class="titulo"  for="password">Contraseña</label>
+             <input class="caja" type="password" id="password" placeholder=" Ingresa tu contraseña" required>
+             
+             <!-- Contraseña comprobacion -->
+             <label class="titulo"  for="passwordR">Repetir contraseña</label>
+             <input class="caja" type="password" id="passwordR" placeholder=" Ingresa tu contraseña de nuevo" required>
+              
+                       
+             <!-- Se crea un boton para enviar los datos-->
+             
+             <p>He leido los <a class="account" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" >Terminos y condiciones </a> de la pagina  <input type="checkbox" id="switch" required>
+            <label for="switch" class="lbl"></label></p>
+             
+             
+             <input type="submit" id="enviar" value="Registrar">
+             <br>
+             <!--  -->
+             <!-- Se crea un enlace que envie a una pagina para la creacion de una cuenta -->
+              
+              
+             <br>
+             <p class="condicion">¿Ya tienes una cuenta? <a href="./index.html" class="account">¡Ingresa desde aquí!</a></p>
+         </form>
+     </div>    
+    </section>
+    </body>
+</html>

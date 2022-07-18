@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>UTNG Dolores Hidalgo Subir</title>
+        
+        <link rel="stylesheet" href="CSS/master1.css">
+        <!-- Esta parte del codigo es para los iconos de una pagina ajena -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+    <section>
+     <div class="login-box">
+        <img class="avatar" src="./IMGS/Logo.png" alt="Logotipo UTNG">
+         <h1>Cargar artículo</h1>
+         <form>
+             
+             
+             <label class="titulo" for="subsis">Tipo de subsistema</label>
+             <select id="subsis" class="caja">
+                 <option disabled selected>...</option>
+                 <option>Universidad Tecnológica</option>
+                 <option>Universidad Politécnica</option>
+                 <option>Instituto Tecnológico</option>
+             
+             </select>
+             
+             <!-- Nombre completo -->
+             <label class="titulo"  for="completeName">Título Artículo</label>
+             <input class="caja" type="text" id="completeName" placeholder=" Ingresa el título" required>
+             
+             <label class="titulo"  for="completeName">Título autor</label>
+             <input class="caja" type="text" id="completeName" placeholder=" Ingresa el autor" required>
+             
+             
+             <label class="titulo">Resumen del artículo</label>
+             <input type="text" class="caja" placeholder=" Ingrese breve resumen del artículo" required>
+             
+             <label class="titulo">Sube el archivo aquí</label>
+             <input class="caja" type="file" placeholder="" required>
+             <!-- Se crea un boton para enviar los datos-->
+             
+             <input type="submit" class="carga" id="enviar" value="Cargar archivo">
+             <br>
+             <!--  -->
+            
+         </form>
+     </div>    
+    </section>
+    </body>
+</html>
